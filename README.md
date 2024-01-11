@@ -7,7 +7,11 @@ Installation instruction site: https://snakemake.readthedocs.io/en/stable/gettin
 
 
 Installing a separate env is best to avoid side effects with other packages.
-''' mamba create -c conda-forge -c bioconda -n snakemake snakemake '''
+'''
+mamba create -c conda-forge -c bioconda -n snakemake snakemake 
+'''
 
 activate environment 
-'''mamba activate snakemake'''
+'''
+mamba activate snakemake
+'''
